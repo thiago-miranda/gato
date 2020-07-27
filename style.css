@@ -58,6 +58,9 @@ ul li a:hover {
   text-transform: uppercase;
   padding-bottom: 20px;
 }
+.title-videos {
+  text-align: center;
+}
 .subtitle {
   color: #d9d0c7;
   font-size: 32px;
@@ -212,10 +215,15 @@ form {
 
 @media (max-width: 611px) {
   .videos {
-    height: 780px;
+    height: 800px;
   }
   iframe {
     display: flex;
     margin: 10px;
+  }
+  .quebra p {
+    font-size: 18px;
+    max-width: 600px;
+    text-align: center;
   }
 }
