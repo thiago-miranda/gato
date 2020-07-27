@@ -103,6 +103,7 @@ section ul li p {
 .bo {
   background: url("b.jpg") center no-repeat;
   background-size: cover;
+  margin-bottom: 4px;
   width: 300px;
   height: 450px;
 }
